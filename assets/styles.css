@@ -1,0 +1,103 @@
+/* wheremymeetings.at
+*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	position: absolute;
+	font: 200 16px/1.5 'Helvetica Neue', Sans-Serif;
+}
+
+header, footer {
+	background: rgba(0,0,0,0.5);
+	border-radius: 0.25em;
+	color: white;
+	height: 36px;
+	left: 50%;
+	margin-left: -300px;
+	position: absolute;
+	text-align: center;
+	width: 600px;
+}
+
+header {
+	top: 10px;
+}
+	header h1 {
+		font-weight: 200;
+		font-size: 24px;
+		margin: 0;
+	}
+
+footer {
+	bottom: 10px;
+}
+	footer p {
+		line-height: 36px;
+		margin: 0;
+	}
+		footer p a {
+			color: white;
+			text-decoration: none;
+		}
+			footer p a:hover {
+				text-decoration: un
+			}
+
+label {
+	display: block;
+	float: left;
+	margin-right: 5%;
+	width: 45%;
+}
+
+button {
+	clear: both;
+	margin-top: 2em;
+}
+
+input {
+	width: 100%;
+}
+
+.map-info-title {
+	font-weight: bold;
+}
+
+#map {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.modal {
+	background: white;
+	border-radius: 1em;
+	bottom: 10%;
+	left: 10%;
+	padding: 1px 2em;
+	position: absolute;
+	right: 10%;
+	top: 10%;
+}
+	.modal:before {
+		background: rgba(0,0,0,0.5);
+		bottom: -40%;
+		content: '';
+		left: -40%;
+		position: absolute;
+		right: -40%;
+		top: -40%;
+		z-index: -1;
+	}
+	.modal.hide {
+		display: none;
+	}
+

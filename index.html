@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Where my meetings at?</title>
+		<link rel="stylesheet" href="assets/styles.css">
+		<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmwsLlHbyJwL0nZtpW28mBcuUUHnVzhrI"></script>
+		<script defer src="bower_components/ical.js/build/ical.js"></script>
+		<script defer src="assets/behaviors.js"></script>
+	</head>
+	<body>
+		<section id="map"></section>
+		<header>
+			<h1>Where my meetings at?</h1>
+		</header>
+		<footer>
+			<p>Copyright &copy; <a href="http://andrew.hedges.name">Andrew Hedges</a> 2016. All rights reserved.</p>
+		</footer>
+		<article class="modal open">
+			<h1>Where my meetings at?</h1>
+			<p>Where my meetings at? (WMMA) is a handy site to help you visualize the location of meetings in your calendar.</p>
+			<p>To start, either enter the URL to an <code>.ics</code> file<!--  or upload an <code>.ics</code> file below -->.</p>
+			<form>
+				<label>
+					URL to an <code>.ics</code> file (e.g., a public Google Calendar)<br>
+					<input type="text" name="url" placeholder="https://calendar.google.com/calendar/ical/xyz/public/basic.ics" value="https://calendar.google.com/calendar/ical/ti85fjo8c7d9uc6ra98231kt40%40group.calendar.google.com/public/basic.ics">
+				</label>
+<!-- 				<label>
+					Upload an <code>.ics</code> file (e.g., exported from Calendar.app)<br>
+					<input type="file" name="file">
+				</label>
+ -->				<button class="close-modal">Display My Meetings</button>
+			</form>
+		</article>
+	</body>
+</html>
