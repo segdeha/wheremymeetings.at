@@ -1,0 +1,22 @@
+{
+  "name": "wheremymeetings.at",
+  "version": "0.0.1",
+  "description": "Web app to plot meetings on a map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segdeha/wheremymeetings.at.git"
+  },
+  "author": "Andrew Hedges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segdeha/wheremymeetings.at/issues"
+  },
+  "homepage": "https://github.com/segdeha/wheremymeetings.at",
+  "dependencies": {
+    "ical.js": "^1.2.2"
+  }
+}
